@@ -1,0 +1,137 @@
+body{
+  font-family: Arial;
+  background: #f7f7f7;
+  margin: 0px;
+  height: 1200px;
+}
+img{
+  max-width: 100%;
+  
+  
+}
+a{
+  text-decoration: none;
+  padding: 15px 30px;
+  background: white;
+  justify-self: center;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  
+  padding-bottom: 60px;
+
+}
+.navbar a {
+  margin: 0px 20px;
+}
+.logo{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 100px;
+  justify-items: center;
+}
+.item1{
+  display: grid;
+  max-width: 1000px;
+  background: white;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 4px ;
+  
+}
+.imgbike{
+  grid-column: 1;
+  border-radius: 4px 0px 0px 0px;
+  min-width: 355px;
+  min-height: 274px;
+}
+.titBike{
+  place-self:  left;
+  margin: 20px 0px 0px 17px;
+  font-size: 30px;
+}
+.discBike{
+  justify-self: top;
+  place-self: center;
+  padding: 20px;
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+}
+.vermais{
+  background:#ee2211 ;
+  align-content: end;
+  padding: 15px 25px;
+  place-self: center left;
+  margin-left: 17px;
+  color: white;
+}
+.itemLeft{
+  grid-column:2;
+  display: grid;
+  place-self: center;
+  min-width: 355px;
+  text-align: left;
+}
+.vantbox{
+  grid-column: 2;
+  grid-row: 2;
+  background: #f7f7f7;
+  margin: 0px;
+  color: #c6c6c6;
+  font-size: 40px;
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.vantagens{
+  margin-left: 15px;
+}
+.box_central{
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.perks{
+  grid-column:1;
+  grid-row:2;
+
+}
+.eletrica{
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+.velocimetro{
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+}
+.rastreador{
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+}
+h3{
+  margin: 19px;
+}
+p{
+  display: flex;
+  justify-content: left; 
+  margin: 0px 50px 25px 104px;
+}
+footer{
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-self: baseline;
+  justify-content: center;
+  align-items: center;
+  margin-top:  70px;
+  
+}
